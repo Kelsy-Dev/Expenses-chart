@@ -62,32 +62,35 @@ main > ul li{
 /* ----------CHARTS-----------
 ------------------------------ */
 
-.mon, .tue, .wed, .thu, .fri, .sat, .sun {
+#mon, #tue, #wed, #thu, #fri, #sat, #sun {
     background-color: #ec755d;
     padding: 50px 0;
     width: 35px;
     border-radius: 5px;
 }
-.mon {
+#mon {
     padding: 25px 0;
 }
-.tue {
+.test {
+    border: 1px solid black;
+}
+#tue {
     padding: 60px 0;
 }
-.wed {
+#wed {
     background-color: #78b4be;
     padding: 85px 0;
 }
-.thu {
+#thu {
     padding: 50px 0;
 }
-.fri {
+#fri {
     padding: 35px 0;
 }
-.sat {
+#sat {
     padding: 75px 0;
 }
-.sun {
+#sun {
     padding: 40px 0;
 }
 
