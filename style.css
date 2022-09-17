@@ -48,29 +48,51 @@ main > p:first-child{
 main > ul {
     list-style-type: none;
     display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: 50px;
 }
 main > ul li{
-    margin-left: 5px;
-    padding-left: 10px;
+    color: #9e9a93;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* ----------CHARTS-----------
+------------------------------ */
+
+.mon, .tue, .wed, .thu, .fri, .sat, .sun {
+    background-color: #ec755d;
+    padding: 50px 0;
+    width: 35px;
+    border-radius: 5px;
 }
 .mon {
-    background-color: #ec755d;
-    padding: 50px 10px;
-    width: 35px;
+    padding: 25px 0;
 }
 .tue {
-    background-color: #ec755d;
-    padding: 50px 10px;
-    width: 35px;
+    padding: 60px 0;
 }
 .wed {
     background-color: #78b4be;
-    padding: 50px 10px;
-    width: 35px;
+    padding: 85px 0;
 }
-.col{
-    display: flex;
-    flex-direction: column;
+.thu {
+    padding: 50px 0;
+}
+.fri {
+    padding: 35px 0;
+}
+.sat {
+    padding: 75px 0;
+}
+.sun {
+    padding: 40px 0;
+}
+
+hr {
+    margin: 20px 30px;
+    color: #9e9a93;
 }
 
 
