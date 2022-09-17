@@ -32,3 +32,46 @@ body {
 /* ----------MAIN-----------
 ---------------------------- */
 
+main {
+    background-color: #fffcf7;
+    margin: -56px 20px;
+    border-radius: 10px;
+}
+main > p:first-child{
+    text-align: center;
+    color: #382314;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 24px;
+    margin-left: -178px;
+}
+main > ul {
+    list-style-type: none;
+    display: flex;
+}
+main > ul li{
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.mon {
+    background-color: #ec755d;
+    padding: 50px 10px;
+    width: 35px;
+}
+.tue {
+    background-color: #ec755d;
+    padding: 50px 10px;
+    width: 35px;
+}
+.wed {
+    background-color: #78b4be;
+    padding: 50px 10px;
+    width: 35px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
