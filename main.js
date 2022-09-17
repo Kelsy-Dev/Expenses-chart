@@ -1,15 +1,3 @@
-// let monday = document.getElementById('mon');
- 
-
-//     monday.addEventListener("mouseover", () => {
-//          monday.classList.add('test');
-//         console.log("It's workinng");
-//         }  
-//     )
-//     monday.addEventListener("mouseleave", () => {
-//         monday.classList.remove('test');
-//         console.log("not working")
-//     })
 
 let database = [
     {
@@ -43,23 +31,32 @@ let database = [
   ]
 
 
-for (let i = 0; i < database.length; i++) {
-    if(database) {
-        let details = document.getElementById(database[i].day);
-        details.addEventListener("mouseover", () => {
-            details.classList.add('test');
-        })
-    } 
-}
-for (let i = 0; i < database.length; i++) {
-    if(database) {
-        let details = document.getElementById(database[i].day);
-        details.addEventListener("mouseleave", () => {
-            details.classList.remove('test');
-        })
-    } 
-}
+// for (let i = 0; i < database.length; i++) {
+//     if(database) {
+//         let details = document.getElementById(database[i].day);
+//         details.addEventListener("mouseover", () => {
+//             details.classList.add('test');
+//         })
+//     } 
+// }
+// for (let i = 0; i < database.length; i++) {
+//     if(database) {
+//         let details = document.getElementById(database[i].day);
+//         details.addEventListener("mouseleave", () => {
+//             details.classList.remove('test');
+//         })
+//     } 
+// }
 
 
 
+
+let message = document.getElementById('lol1');
+
+
+        message.addEventListener("click", () => {
+        message.classList.add('info');
+        console.log("working");
+        // message.innerHTML = database[p].amount;
+    });
 
