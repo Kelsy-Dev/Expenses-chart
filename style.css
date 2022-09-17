@@ -25,7 +25,7 @@ body {
 }
 .head > img{
     position: absolute;
-    left: 340px;
+    left: 75%;
     top: 100px;
 }
 
@@ -53,6 +53,7 @@ main > ul {
     margin-top: 50px;
 }
 main > ul li{
+    margin-top: 10px;
     color: #9e9a93;
     font-size: 13px;
     text-align: center;
@@ -91,9 +92,43 @@ main > ul li{
 }
 
 hr {
-    margin: 20px 30px;
+    margin: 20px;
+    color: #9e9a93;
+}
+
+.total {
+    margin-left: 20px;
+}
+.total > p:first-child {
+    color: #9e9a93;
+}
+.total > p:last-child{
+    margin-top: 10px;
+    color: #382314;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.percent {
+    margin-top: -40px;
+    margin-right: 5%;
+    padding-bottom: 20px;
+    text-align: right;
+}
+.percent > p:first-child{
+    color: #382314;
+    font-weight: bold;
+}
+.percent > p:last-child{
     color: #9e9a93;
 }
 
 
 
+
+/* ----------FOOTER-----------
+------------------------------ */
+
+footer {
+    margin-top: 25vh;
+}
