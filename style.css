@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #f7e9dc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ----------HEADER-----------
+------------------------------ */
+
+.head {
+    background-color: #ec755d;
+    color: white;
+    margin:70px 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.head > p:nth-child(2){
+    margin-top: 10px;
+    font-size: 23px;
+}
+.head > img{
+    position: absolute;
+    left: 340px;
+    top: 100px;
+}
+
+/* ----------MAIN-----------
+---------------------------- */
+
