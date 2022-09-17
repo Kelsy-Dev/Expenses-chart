@@ -60,3 +60,5 @@ let message = document.getElementById('lol1');
         // message.innerHTML = database[p].amount;
     });
 
+//In order to work, you will have to use createlement to add lol1 when you
+//click on the chart:))))) YOU GOT THIIIS MFFF
