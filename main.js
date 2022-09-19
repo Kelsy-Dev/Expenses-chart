@@ -1,5 +1,5 @@
 
-let database = [
+const database = [
     {
       "day": "mon",
       "amount": 17.45
@@ -30,35 +30,54 @@ let database = [
     }
   ]
 
+let dayInfo = [
+  {
+    "days": "day1"
+   },
+   {
+    "days": "day2"
+   }, 
+   {
+    "days": "day3"
+   }, 
+   {
+    "days": "day4"
+   }, 
+   {
+    "days": "day5"
+   }, 
+   {
+    "days": "day6"
+   }, 
+   {
+    "days": "day7"
+   }
+   ]
 
-// for (let i = 0; i < database.length; i++) {
-//     if(database) {
-//         let details = document.getElementById(database[i].day);
-//         details.addEventListener("mouseover", () => {
-//             details.classList.add('test');
-//         })
-//     } 
-// }
-// for (let i = 0; i < database.length; i++) {
-//     if(database) {
-//         let details = document.getElementById(database[i].day);
-//         details.addEventListener("mouseleave", () => {
-//             details.classList.remove('test');
-//         })
-//     } 
-// }
 
 
 
+for (let i = 0; i < database.length; i++) {
+    if(database) {
+        let details = document.getElementById(database[i].day);
+        const hiddeN = document.getElementById(dayInfo[i].days);
+        
+        details.addEventListener("mouseover", () => {
+          hiddeN.innerHTML = `${database[i].amount}`
+          hiddeN.style.display = 'block';
+            details.classList.add('test');      
+            })
+        }
+    } 
 
-let message = document.getElementById('lol1');
+for (let i = 0; i < database.length; i++) {
+    if(database) {
+        let details = document.getElementById(database[i].day);
+        const hiddeN = document.getElementById(dayInfo[i].days);
+        details.addEventListener("mouseleave", () => {
+          details.classList.remove('test');
+          hiddeN.style.display = 'none';
+        })
+    }
+}
 
-
-        message.addEventListener("click", () => {
-        message.classList.add('info');
-        console.log("working");
-        // message.innerHTML = database[p].amount;
-    });
-
-//In order to work, you will have to use createlement to add lol1 when you
-//click on the chart:))))) YOU GOT THIIIS MFFF
