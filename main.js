@@ -63,7 +63,7 @@ for (let i = 0; i < database.length; i++) {
         const hiddeN = document.getElementById(dayInfo[i].days);
         
         details.addEventListener("mouseover", () => {
-          hiddeN.innerHTML = `${database[i].amount}`
+          hiddeN.innerHTML = `${"$" + database[i].amount}`
           hiddeN.style.display = 'block';
             details.classList.add('test');      
             })
