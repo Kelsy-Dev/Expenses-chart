@@ -36,14 +36,13 @@ body {
 
 /* ----------MAIN-----------
 ---------------------------- */
-
 main {
-    margin-top: 30px;
     background-color: #fffcf7;
     border-radius: 10px;
+    margin-top: 30px;
 }
+
 main > p:first-child{
-    text-align: center;
     color: #382314;
     font-size: 22px;
     font-weight: bold;
@@ -51,15 +50,14 @@ main > p:first-child{
     text-align: left;
     margin-left: 30px;
 }
-main > ul {
-    list-style-type: none;
+.graph {
     display: flex;
-    justify-content: space-evenly;
     align-items: flex-end;
+    justify-content: space-evenly;
     margin-top: 50px;
-    padding-left: 0px;
 }
-main > ul li{
+
+.col > p {
     margin-top: 10px;
     color: #9e9a93;
     font-size: 13px;
